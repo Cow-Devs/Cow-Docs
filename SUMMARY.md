@@ -8,3 +8,4 @@
 * [📧 Modmail features](modmail-features.md)
 * [👑 Owner features](owner-features.md)
 * [💠 XP features](xp-features.md)
+* [📓 Logging features](logging-features.md)

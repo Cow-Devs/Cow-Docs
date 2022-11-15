@@ -6,10 +6,6 @@ description: Message counting stuff...
 
 ## Slash commands
 
-### /xp user (user)
+### /xp rank (user)
 
-Show yours or another member's xp and level count.
-
-### /xp setcard \[hex]
-
-Lets you customize your xp bar in /xp user.
+Show yours or another member's xp rank.
