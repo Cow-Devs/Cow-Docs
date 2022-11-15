@@ -1,4 +1,4 @@
-# 🐄 Home
+# Home
 
 ### Welcome to the Cow documentation!
 
