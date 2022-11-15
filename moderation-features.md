@@ -2,51 +2,71 @@
 description: Standard moderation features.
 ---
 
-# 🔨 Moderation features
+# 🔨 Mod features
 
 ## Slash Commands
 
-### /moderation mute \[user]
+### /mod mute \[user]
 
 Gives the specified member a role. Read [https://setup.cow.futbol/mutes](https://setup.cow.futbol/mutes) for more info.
 
-### /moderation unmute \[user]
+### /mod unmute \[user]
 
 Removes a role from the user. Read [https://setup.cow.futbol/mutes](https://setup.cow.futbol/mutes) for more info.
 
-### /moderation tempmute \[user] (reason) \<duration>
+### /mod tempmute \[user] (reason) \<duration>
 
-Timeouts the specified member for the selected time with the provided reason. Requires timeout/moderate members perms.
+Timeouts the specified member for the selected time with the provided reason.
 
-### /moderation untempmute \[user] (reason)
+### /mod untempmute \[user] (reason)
 
-Untempmutes the specified user for the provided reason. Requires timeout/moderate members perms.
+Untempmutes the specified user for the provided reason.
 
-### /moderation ban \[user] \[reason]
+### /mod ban \[user] \[reason]
 
-Permanently bans the specified user for the provided reason. Requires ban members perms.
+Permanently bans the specified user for the provided reason.
 
-### /moderation kick \[user] \[reason]
+### /mod kick \[user] \[reason]
 
-Kicks the specified user for the provided reason. Requires kick members perms.
+Kicks the specified user for the provided reason.
 
-### /moderation setmutedrole \[role]
+### /mod setmutedrole \[role]
 
 Sets a role to be the muted role. Read [https://setup.cow.futbol/mutes](https://setup.cow.futbol/mutes) for more info.
 
-### /moderation softmute \[member] \[reason]
+### /mod dm \[user] \[message] (secret)
 
-### /moderation unsoftmute \[member] \[reason]
+Allows moderators to DM users.
+
+### /mod sethardmutedrole \[role]
+
+Sets the hardmuted role.
+
+### /mod hardmute \[user]
+
+Toggles the hardmuted role on a user.
+
+### /mod unban \[id]
+
+Unbans the user with the specified ID.
 
 ## User commands
 
+### Mute User
+
+Same as `/mod mute`
+
+### Unmute User
+
+Same as `/mod unmute`
+
 ### Ban User
 
-Same as /moderation ban
+Same as `/mod ban`
 
 ### Kick User
 
-Same as /moderation kick
+Same as `/mod kick`
 
 ## Message Commands
 
@@ -54,6 +74,6 @@ Same as /moderation kick
 
 Deletes the message.
 
-### Pin
+### Pin Message
 
 Pins the message.

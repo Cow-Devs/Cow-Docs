@@ -6,6 +6,10 @@ description: Commands for server owners.
 
 ### Slash Commands
 
-### /owner purge (limit)
+### /owner purge \[limit]
 
-Completely purges the channel. You can also instead specify a message count.
+Purges the channel.
+
+### /owner setsuggestions \[channel]
+
+Sets the channel where the bot will automatically create threads and react.

@@ -28,7 +28,7 @@ Displays when the bot was created and how long ago.
 
 ### /bot devcheck \[user]
 
-Checks if a user is a Cow bot developer or designer.
+Checks if a user is related to the Cow bot team in any way.
 
 ### /bot invite \[guild\_id]
 

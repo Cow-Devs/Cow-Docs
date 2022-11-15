@@ -4,27 +4,23 @@
 
 ### /fun rickroll
 
-Anonymously rickrolls the chat. Requires embed perms.
+Anonymously rickrolls the chat.
 
 ### /fun capybara
 
-Sends coconut doggy dot art. Requires embed perms.
+Sends coconut doggy dot art.
 
 ### /fun shark
 
-Deploys a shark into the chat. Requires external emojis perms.
+Deploys a shark into the chat.
 
 ### /fun sus
 
-Summons the imposter from amogus... Requires external emojis perms.
-
-### /fun waltuh
-
-Sends two emojis of Walter banging on a pan. Requires external emojis perms.
+Summons the imposter from amogus...
 
 ### /fun cock
 
-Shows a dripping cock. Requires embed perms.
+Shows a dripping cock.
 
 ### /fun seal
 
@@ -58,3 +54,6 @@ Shows you or another user wearing drip 😎.
 
 W I D E N S an image.
 
+### /fun meme
+
+Sends a random meme image directly from r/memes.
